@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" class="js" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121417" />
+    <meta name="description" content="The student profile and favorite place of Rafael Miguel B. Dacusan." />
+    <title>Rafael Miguel B. Dacusan - Student Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="#profile">Rafael Miguel B. Dacusan</a>
+        <nav class="gooey-nav" aria-label="Main navigation">
+          <a href="#profile" class="is-active" aria-current="location">Profile</a>
+          <a href="#about">About</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#favorite-place">Favorite Place</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-pressed="true">Light mode</button>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="hero container" id="profile">
+        <div class="hero-inner">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Student Profile</span>
+            <h1>My journey begins with curiosity.</h1>
+            <p class="subtitle">
+              I am Rafael Miguel B. Dacusan, a student who enjoys learning new things
+              and discovering new ideas that help me grow both in school and in life.
+            </p>
+            <div class="cta-row">
+              <a href="#about" class="btn btn-primary">Explore</a>
+              <a href="#hobbies" class="btn btn-secondary">My Hobbies</a>
+              <a href="#favorite-place" class="btn btn-secondary">Favorite Place</a>
+            </div>
+          </div>
+
+          <div class="profile-visual reveal" aria-label="Profile illustration and details">
+            <div class="portrait-shell" aria-hidden="true">
+              <div class="portrait-glow"></div>
+              <div class="portrait-card">
+                <div class="portrait-head"></div>
+                <div class="portrait-body"></div>
+              </div>
+            </div>
+            <div class="profile-details">
+              <h2>Rafael Miguel B. Dacusan</h2>
+              <dl>
+                <div><dt>Role</dt><dd>Student</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container reveal">
+        <div class="section-head">
+          <h2>About Me</h2>
+          <p>Learning and becoming better one step at a time.</p>
+        </div>
+        <div class="info-grid">
+          <article class="info-card">
+            <p>
+              Hello! My name is Rafael Miguel B. Dacusan, and I am a student who enjoys
+              learning new things every day. I am currently studying BSIT and, 
+              and I am excited to improve my skills in creating simple and
+              useful websites.
+            </p>
+            <p>
+              I like being creative, solving problems, and exploring technology. I also
+              enjoy working hard so I can achieve my goals in school
+              and in life.
+            </p>
+          </article>
+          <article class="info-card">
+            <p>
+              I am interested in digital skills, productivity, and personal growth. I want
+              to keep improving my knowledge and turn my curiosity into meaningful work
+              and creative ideas.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="hobbies" class="container reveal">
+        <div class="section-head">
+          <h2>My Hobbies</h2>
+          <p>These are the activities that help me relax, learn, and enjoy life.</p>
+        </div>
+        <div class="hobby-card">
+          <ul class="hobby-list">
+            <li>Playing online games</li>
+            <li>Listening to music</li>
+            <li>Learning technology</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="favorite-place" class="container reveal">
+        <div class="section-head">
+          <h2>My Favorite Place: Beach, Scenery and Peaceful Places</h2>
+          <p>Example here in the image is Palawan.</p>
+        </div>
+        <article class="place-card">
+          <p class="place-intro">
+            Palawan is one of the Philippines' most beautiful destinations. Its
+            natural scenery makes it a wonderful place to work and explore.
+          </p>
+          <figure class="place-figure">
+            <button
+              class="image-expand"
+              type="button"
+              aria-label="Open the full-size Palawan beach image"
+            >
+              <img
+                src="image_Palawan.jfif"
+                alt="Beach scenery in Palawan"
+                width="1200"
+                height="800"
+                loading="lazy"
+              />
+              <span class="image-expand-hint" aria-hidden="true">Click to enlarge</span>
+            </button>
+            <p class="place-link">
+              <a 
+                href = "https://notanotherbackpacker.com/en/best-beaches-in-palawan/"
+                Title = "Source of the image"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Image Source</a>
+            </p>
+            <figcaption>A tropical beach like the scenic shores of Palawan.</figcaption>
+          </figure>
+          <p class="place-link">
+            <a
+              href="https://en.wikipedia.org/wiki/Palawan"
+              title="Read more about Palawan's geography, history, and attractions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Learn more about Palawan</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <dialog class="image-dialog" aria-label="Expanded Palawan beach image">
+      <button class="image-dialog-close" type="button" aria-label="Close image">×</button>
+      <img src="image_Palawan.jfif" alt="Palawan beach, enlarged" />
+    </dialog>
+
+    <footer>
+      <div class="container footer-row">
+        <p>Created by Rafael Miguel B. Dacusan</p>
+        <p>Thank you for visiting my webpage!</p>
+      </div>
+    </footer>
+  </body>
+</html>
